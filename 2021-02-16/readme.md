@@ -1,6 +1,6 @@
 # Dubois Challenge 
 ### challenge01: Comparative Increase of White and Colored Population in Georgia
 
-Recreated one of the plots presented by W.E.B Dubois at the 1900 Paris Exposition. 
-(original-plate-07.jpg)
-(georgiapop_plot.png)
+Recreated one of the plots presented by W.E.B Dubois at the 1900 Paris Exposition, original from 1900 on the left and figure created in R on the right. 
+![](Compareplot1.png)
+
