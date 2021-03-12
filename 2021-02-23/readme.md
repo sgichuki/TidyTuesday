@@ -1,2 +1,4 @@
 
-![](US_worker_wageplot.png)
+
+
+![Wageplot](US_worker_wageplot.png)
