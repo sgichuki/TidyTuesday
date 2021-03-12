@@ -1,2 +1,2 @@
 
-![US worker weekly wage plot](US_worker_wageplot.jpg)
+![US worker weekly wage plot](US_worker_wageplot.png)
