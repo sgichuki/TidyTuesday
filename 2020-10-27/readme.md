@@ -51,4 +51,4 @@ tm_basemap("OpenStreetMap")+
 
 ````
 Below is a screenshot of the resulting map
-![](quebecturbinemap.html)
+![](quebecturbinemap.png)
