@@ -51,4 +51,4 @@ tm_basemap("OpenStreetMap")+
 
 ````
 Below is a screenshot of the resulting map
-<iframe src="quebecturbinemap.html" frameborder="0" width="100%" height="300px"></iframe>
+![](quebecturbinemap.html)
