@@ -52,5 +52,3 @@ tm_basemap("OpenStreetMap")+
 ````
 Below is a screenshot of the resulting map
 <iframe src="quebecturbinemap.html" frameborder="0" width="100%" height="300px"></iframe>
-
-<iframe src="https://github.com/sgichuki/TidyTuesday/edit/main/2020-10-27/quebecturbinemap.html" height="600px" width="100%" style="border:none;"></iframe>
