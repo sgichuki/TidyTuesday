@@ -53,4 +53,8 @@ tm_basemap("OpenStreetMap")+
 Below is a screenshot of the resulting map
 <iframe src="quebecturbinemap.html" frameborder="0" width="100%" height="300px"></iframe>
 
-
+{% leaflet_map { "zoom" : 9 } %}
+    {% leaflet_marker { "latitude" : 41.881832,
+                        "longitude" : -87.623177,
+                        "popupContent" : "Hello World from Chicago!" } %}
+{% endleaflet_map %}
