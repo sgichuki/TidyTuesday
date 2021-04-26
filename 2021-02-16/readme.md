@@ -1,7 +1,9 @@
 # Dubois Challenge 
 ### challenge 01: Comparative Increase of White and Colored Population in Georgia
 
-The Dubois challenge was all about recreating plots created in the 1800's by W.E.B Dubois using modern tools. The original illustrations were hand-drawn. In the figure below see the original from 1900 on the left and figure created in R on the right. 
+The Dubois challenge was all about recreating plots created in the 1800's by W.E.B Dubois. In the 1800's Dubois made the original illustrations by hand, the Dubois challenge was aimed at recreating the same graphs using R (or any other modern data visualisation tool). 
+
+For task 1 in the Dubois challenege, I recreate a graph Dubois created to compare the increase in population of whites versus the "coloured" people in 1900's Georgia.
 
 ![](Compareplot1.png)
 
