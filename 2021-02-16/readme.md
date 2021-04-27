@@ -3,7 +3,7 @@
 
 The Dubois challenge was all about recreating plots created in the 1800's by W.E.B Dubois. In the 1800's Dubois made the original illustrations by hand, the Dubois challenge was aimed at recreating the same graphs using R (or any other modern data visualisation tool). 
 
-For task 1 in the Dubois challenege, I recreate a graph Dubois created to compare the increase in population of whites versus the "coloured" people in 1900's Georgia.
+For task 1, I recreate a graph Dubois comparing the increase in population of whites versus the "coloured" people in 1900's Georgia, down to trying to recreate the sepia color of the original probably caused by aging
 
 ![](Compareplot1.png)
 
