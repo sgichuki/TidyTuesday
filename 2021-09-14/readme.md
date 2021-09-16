@@ -1,2 +1,6 @@
 
 ![](destinymusic.png)
+
+
+![](valenceplot.png)
+
