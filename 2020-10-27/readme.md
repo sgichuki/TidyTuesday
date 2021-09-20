@@ -6,7 +6,7 @@ This data set is a compilation of data on wind turbines in Canada. The plot belo
 
 Of the installed capacity, the largest number of turbines have a capacity of 2000 kW
 
-![](totalturbineplot.png)
+![](turbinecapacityhist.png)
 
 ## Where are the wind turbines installed?
 Being able to visualize the locations of the wind turbines can be useful. The first map shows all the turbines across Canada plotted using the geom_sf function in ggplot
