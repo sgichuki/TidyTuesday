@@ -1,7 +1,6 @@
 library(tidyverse)
 library(waffle)
 library(dplyr)
-library(RColorBrewer)
 library(magick)
 
 #load data
