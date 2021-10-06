@@ -59,7 +59,15 @@ myplot = ggplot(data = winners, aes(fill = distributor,values = n)) +
     theme(legend.title = element_blank())
 
 ````
+The logo is added on top of the base plot. 
 
+````
+myplot #base plot here 
+
+#this code adds the logo on top of your base plot, x and y values position the logo
+grid::grid.raster(emmylogo, x = 0.95, y = 0.28, just = c('right', 'top'), width = unit(0.85, 'inches'))
+
+````
 
 
 ![](emmywaffleplot.png)
