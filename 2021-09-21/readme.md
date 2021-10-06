@@ -31,6 +31,19 @@ winners <- nominees %>%
   count(title)
 
 ````
+For this plot I decided to use a color blind friendly palette, however I also had to add three extra colors because the variables are more than the 8 present in the palette 
+
+````
+# Color blind friendly palette with grey: first 8 colors found online, 
+# had to add 3 more to fit data
+cbp1 <- c("#999999", "#E69F00", "#56B4E9", "#009E73",
+          "#F0E442", "#0072B2", "#D55E00", "#CC79A7",
+          "#744D88","#DA38CD","#4D72FF")
+
+#Read in the Emmy awards logo 
+emmylogo <- image_read("~/GitHub/TidyTuesday/2021-09-21/emmyawardlogo.png")
+
+````
 
 
 
