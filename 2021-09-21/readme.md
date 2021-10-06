@@ -31,7 +31,7 @@ winners <- nominees %>%
   count(title)
 
 ````
-For this plot I decided to use a color blind friendly palette, however I also had to add three extra colors because the variables are more than the 8 present in the palette 
+For this plot I decided to use a color blind friendly palette, however I also had to add three extra colors because the variables are more than the 8 present in the palette. I also read in the emmy awards logo to use in the plot.  
 
 ````
 # Color blind friendly palette with grey: first 8 colors found online, 
