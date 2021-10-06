@@ -5,7 +5,7 @@ An Emmy Award, or simply Emmy, is a trophy presented at one of the numerous annu
 
 I wanted to experiment with waffle plot for this data set. Waffle plots, sometimes referred to as square pie charts, can be useful in presenting parts of a whole for categorical data. 
 
-The number of distribution(mainly TV) networks represented at the Emmy awards are 199 going by the 'distributor' column in this dataset. I decided to pick out a few major TV and streaming platforms: 
+The number of distribution(mainly TV) networks represented at the Emmy awards are 199 going by the 'distributor' column in this dataset. For purposes of clarity, I picked out a few major TV and streaming platforms: 
 
 
 
