@@ -7,6 +7,31 @@ I wanted to experiment with waffle plot for this data set. Waffle plots, sometim
 
 The number of distribution(mainly TV) networks represented at the Emmy awards are 199 going by the 'distributor' column in this dataset. For purposes of clarity, I picked out a few major TV and streaming platforms: 
 
+````
+library(tidyverse)
+library(waffle)
+library(dplyr)
+library(RColorBrewer)
+library(magick)
+
+#load data
+nominees <- read.csv("~/GitHub/TidyTuesday/2021-09-21/nominees.csv")
+
+#convert columns to factor 
+cols2factor <-c('type','distributor','producer')
+nominees[,cols2factor]<-lapply(nominees[,cols2factor],as.factor)
+
+#Winners by network
+winners <- nominees %>%
+  select(type,category,title,producer,distributor,year) %>%
+  filter(distributor %in% c("ABC","NBC","CBS","FOX","FX Networks","Netflix","Hulu","Showtime","HBO","HBO Max","Disney+")) %>%
+  filter(type == "Winner") %>%
+  filter(year >= 2019) %>%
+  group_by(distributor,year) %>%
+  count(title)
+
+````
+
 
 
 ![](emmywaffleplot.png)
