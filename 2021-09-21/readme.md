@@ -69,6 +69,6 @@ myplot #base plot here
 grid::grid.raster(emmylogo, x = 0.95, y = 0.28, just = c('right', 'top'), width = unit(0.85, 'inches'))
 
 ````
-
+This is the final plot: 
 
 ![](emmywaffleplot.png)
