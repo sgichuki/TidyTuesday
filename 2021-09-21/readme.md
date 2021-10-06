@@ -44,6 +44,21 @@ cbp1 <- c("#999999", "#E69F00", "#56B4E9", "#009E73",
 emmylogo <- image_read("~/GitHub/TidyTuesday/2021-09-21/emmyawardlogo.png")
 
 ````
+The first step is to create the base plot, this does not include the logo: 
+
+````
+#Create your base plot
+myplot = ggplot(data = winners, aes(fill = distributor,values = n)) + 
+  geom_waffle(color = 'white',size = 0.25, n_rows = 5, flip = TRUE)+
+    scale_fill_manual(values = cbp1) +
+    facet_wrap(~year) +
+    scale_x_discrete() +
+    labs(title = "Emmy award wins by network 2019 - 2021", 
+    caption = "Data from emmys.com, viz:Susan G.twitter:@swarau")+
+    theme(plot.title = element_text(color = "#3F5079", hjust = 0.5))+
+    theme(legend.title = element_blank())
+
+````
 
 
 
