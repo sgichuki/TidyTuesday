@@ -3,7 +3,6 @@ library(countrycode)
 library(janitor)
 library(RColorBrewer)
 library(scales)
-library(gridExtra)
 library(patchwork)
 
 #load data 
