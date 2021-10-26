@@ -1,6 +1,6 @@
 ## Global seafood production 
 
-This data set is from OurWorldinData and it was hard to pick what to focus because one could ask so many different questions: 
+This post is based on a dataset from OurWorldinData.
 
 For this visualization I decided to pick the known leading seafood producing countries and plot the evolution over the years of
 marine and freshwater fish production. 
