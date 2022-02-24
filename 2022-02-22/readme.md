@@ -1,2 +1,2 @@
 
-![]africa-civil-liberties.png 
+![](africa-civil-liberties.png)
