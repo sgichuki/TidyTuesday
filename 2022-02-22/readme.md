@@ -1,1 +1,2 @@
 
+![]africa-civil-liberties.png 
