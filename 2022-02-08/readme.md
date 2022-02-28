@@ -1,2 +1,1 @@
 
-![](tuskegee_airmen.png)
