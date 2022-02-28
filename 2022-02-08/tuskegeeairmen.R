@@ -124,9 +124,4 @@ tuskegee_airmen = ggplot(airmenbystate,aes(x = state, y = n, fill = n))+
         plot.title = element_text(hjust = 0.5, size = 24),
         plot.caption = element_text(family = "Roboto", size = 12))
     
-#Save the plot as a PNG file  
-ggsave("tuskegee_airmen.png",width = 297,height = 210,units = c("mm"),dpi = 300)
 
-ggsave(tuskegee_airmen, file = "tuskegee_airmen.png", width = 22, height = 28, dpi = 150, units = "in")
-
-ggsave("tuskegee_airmen.png",tuskegee_airmen)
