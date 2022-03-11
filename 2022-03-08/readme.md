@@ -1,1 +1,2 @@
 
+![](erasmus_exchanges.png)
