@@ -1,1 +1,2 @@
 
+![](electricstations_cali.png)
