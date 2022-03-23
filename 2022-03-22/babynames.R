@@ -17,12 +17,6 @@ babynames <- fread('https://raw.githubusercontent.com/rfordatascience/tidytuesda
 names <- c('sex','name')
 babynames[,names] <- lapply(babynames[,names],factor)
 
-susan <- babynames %>%
-  filter(name == "Susan" & sex == "F")
-
-ggplot(susan,aes(x = year, y = prop)) +
-  geom_line()
-
 celebnames <-c("Aaliyah","Mariah")
 
 df1 <- babynames %>%
@@ -81,71 +75,3 @@ celebname = ggplot()+
 
 #Save the plot as a PNG file  
 ggsave(celebname, file = "celebname.png",width = 297,height = 210,units = c("mm"),dpi = 300)
-
-        
-  
-  
-
-#top names 
-topfemalenames <- babynames %>%
-  filter(sex == "F") %>%
-  arrange(desc(year), desc(prop)) %>%
-  head(10) %>% pull(name)
-
-topmalenames <- babynames %>%
-  filter(sex == "M") %>%
-  arrange(desc(year), desc(prop)) %>%
-  head(10) %>% pull(name)
-
-girls <- babynames %>%
-  filter(year > 1999)%>%
-  filter(name %in% topfemalenames) %>%
-  group_by(year, name) %>%
-  summarise(prop = sum(prop)) %>%
-  ungroup()
-
-ggplot(girls, aes(x = year, y = name, fill= prop)) + 
-  geom_tile()
-
-boys <- babynames %>%
-  filter(year > 1999)%>%
-  filter(name %in% topmalenames) %>%
-  group_by(year, name) %>%
-  summarise(prop = sum(prop)) %>%
-  ungroup()
-
-ggplot(boys, aes(x = year, y = name, fill= prop)) + 
-  geom_tile()+
-  scale_fill_scico(palette = "bukavu")
-
-
-#top names 
-femalenz <- nzbabynames %>%
-  filter(factor(sex) == "Female") %>%
-  arrange(desc(year), desc(count)) %>%
-  head(10) %>% pull(name)
-
-
-nzgirls <- nzbabynames %>%
-  filter(year > 1949)%>%
-  filter(name %in% femalenz) %>%
-  group_by(year, name) %>%
-  summarise(count = sum(count)) %>%
-  ungroup()
-
-ggplot(nzgirls, aes(x = year, y = name, fill= count)) + 
-  geom_tile()
-
-ggplot(data = nzgirls,aes(x = year, y = count, color = name),lwd = 1.2)+
-  geom_line()+
-  geom_label(aes(label = name),
-                 xlim = c(2020.8, NA))
-
-#topfemalenames <- babynames %>%
-# filter(sex == "F")%>%
-#  group_by(name,year) %>%
-  #tally(prop) %>%
-#  summarise(prop = sum(prop)) %>%
-#  arrange(desc(n))%>%
-#  slice(1:20) #can also use top_n from dplyr to filter top x values
-
