@@ -1,1 +1,2 @@
 
+![](semiconductor_chips.png)
