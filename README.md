@@ -5,4 +5,9 @@ I enjoy TidyTuesday because you get to explore datasets for different subjects, 
 
 Here are some of the favorites that I enjoyed creating.
 
-![bungecoalition.png]
+![](bunge_coalition.png)
+
+
+![](francelegislative2022.png)
+
+
